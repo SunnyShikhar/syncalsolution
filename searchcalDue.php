@@ -31,7 +31,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="homepage.html">Home</a></li>
-						<li><a href="Insert.html">Insert Tool</a></li>
+						<li><a href="insert.html">Insert Tool</a></li>
 						<li><a href="searchcalDue.php">Search CAL or PM Duedate</a></li>
 						<li><a href="searchDEPT.php">Search Manufacturer and Department</a></li>
 					</ul>
@@ -67,14 +67,14 @@
 			<section id="One" class="wrapper style3 special">
 				<div class="container">
 					<header class="major">
-						<h2>Search a Tool</h2>
-						<p>Please select the manufacturer and department from the dropdown menu below:</p>
+						<h2>Search all Calibration or Preventative Maintenance (PM) Tools</h2>
+						<p>Please select Calibration or PM:</p>
 					</header>
 				</div>
 			<form action="foundcaltoolname.php" method="GET" target="_blank">
 				<table>
 					<tr>
-						<td> <b> Manufacturer: </b> </td>
+						<td> <b> CAL or PM: </b> </td>
 						<td> 
 						<select Name="cal_pm" type="text">
 							<?php

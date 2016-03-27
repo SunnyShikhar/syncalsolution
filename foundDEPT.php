@@ -31,7 +31,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="homepage.html">Home</a></li>
-						<li><a href="Insert.html">Insert Tool</a></li>
+						<li><a href="insert.html">Insert Tool</a></li>
 						<li><a href="searchcalDue.php">Search CAL or PM Duedate</a></li>
 						<li><a href="searchDEPT.php">Search Manufacturer and Department</a></li>
 					</ul>
@@ -71,7 +71,7 @@
 			<section id="One" class="wrapper style3 special">
 				<div class="container">
 					<header class="major">
-						<h2>The following table was added:</h2>
+						<h2>The following tools were found:</h2>
 					</header>
 				</div>	
 	
