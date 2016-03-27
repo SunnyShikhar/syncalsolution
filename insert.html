@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+	MSCI 444 Snap Solutions Project 
+	Built using HTML, PHP, CSS and JS
+-->
+	
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MSCI 444 - Synaptive Calibration Solution</title>
+
+		</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="homepage.html">Snap Solutions - Synaptive Calibration</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="homepage.html">Home</a></li>
+						<li><a href="Insert.php">Insert Tool</a></li>
+						<li><a href="SearchOne.php">Search Tool</a></li>
+						<li><a href="SearchLatest.php">Search Most Calibrated</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3 special">
+				<div class="container">
+					<header class="major">
+						<h2>Insert Tool</h2>
+						<p>Please fill out the required fields below:</p>
+					</header>
+				</div>
+				<div class="container 50%">
+					<form action="addv2.php" method="POST" target="_blank">
+						<table>
+							<tr>
+								<td> <b> Syn Number: </b> </td>
+								<td> <input type="text" name="synNum"> </td>
+							</tr>
+							<tr>
+								<td> <b> Serial Num: </b></td>
+								<td> <input type="text" name="serialNum"></td>
+							<tr>
+								<td> <b> Comments: </b> </td>
+								<td> <input type="text" name="comment"> </td>
+							</tr>
+							<tr>
+								<td> <b> Calibration or PM </b> </td>
+								<td> <input type="text" name="calpm"> </td>
+							</tr>
+							<tr>
+								<td> <b> First Name </b> </td>
+								<td> <input type="text" name="lastupdatedFN"> </td>
+							</tr>
+							<tr>
+								<td> <b> Last Name </b> </td>
+								<td> <input type="text" name="lastupdatedLN"> </td>
+							</tr>
+							<tr>
+								<td> <b> Model Number </b> </td>
+								<td> <input type="text" name="modelNum"> </td>
+							</tr>
+							<tr>
+								<td> <b> Product Owner Email </b> </td>
+								<td> <input type="text" name="prodOwnerEmail"> </td>
+							</tr>
+							<tr>
+								<td> <b> Manufacturer </b> </td>
+								<td> <input type="text" name="manuName"> </td>
+							</tr>
+							<tr>
+								<td> <b> Tool Name </b> </td>
+								<td> <input type="text" name="toolName"> </td>
+							</tr>
+							<tr>
+								<td> <b> Product Onwer First Name </b> </td>
+								<td> <input type="text" name="prodOwnerFirst"> </td>
+							</tr>
+							<tr>
+								<td> <b> Product Onwer Last Name </b> </td>
+								<td> <input type="text" name="prodOwnerLast"> </td>
+							</tr>
+							<tr>
+								<td> <b> Department Name </b> </td>
+								<td> <input type="text" name="deptName"> </td>
+							</tr>
+							<tr>
+								<td> <b> Calibration Length </b> </td>
+								<td> <input type="text" name="lengthCal"> </td>
+							</tr>
+							<tr>
+								<td> <b> Last Calibrated Length </b> </td>
+								<td> <input type="text" name="lastCal"> </td>
+							</tr>
+							<tr>
+								<td> <b> Next Calibration Due Date </b> </td>
+								<td> <input type="text" name="dueCal"> </td>
+							</tr>
+							<tr>
+								<td> <b> Calibration Company </b> </td>
+								<td> <input type="text" name="calCompany"> </td>
+							</tr>
+							<tr>
+								<td> </td>
+								<td> <input type="submit" name= "submit" value="SUBMIT"> </td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</section>		
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+	</body>
+</html>
