@@ -31,7 +31,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="homepage.html">Home</a></li>
-						<li><a href="Insert.html">Insert Tool</a></li>
+						<li><a href="insert.html">Insert Tool</a></li>
 						<li><a href="searchcalDue.php">Search CAL or PM Duedate</a></li>
 						<li><a href="searchDEPT.php">Search Manufacturer and Department</a></li>
 					</ul>
