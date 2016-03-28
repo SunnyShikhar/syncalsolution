@@ -53,14 +53,25 @@
 				}
 
 				// Query template
-				$sql = 	"SELECT DISTINCT M.manuName, P.deptName
-					 FROM manuftool M, prodOwner P";
+				$sql = 	"SELECT DISTINCT M.manuName
+					 FROM manuftool M";
+
+				// Query template
+				$sql2 = "SELECT DISTINCT P.deptName
+					 FROM prodOwner P";
 
 				// Prepare statement
 				$stmt = $conn->prepare($sql);
 		
 				// Bind result parameters
-				$stmt->bind_result($manuName, $deptName);
+				$stmt->bind_result($manuName);
+
+				// Prepare statement
+				$stmt2 = $conn->prepare($sql2);
+		
+				// Bind result parameters
+				$stmt2->bind_result($deptName);
+
 		?>
 		
 		<!-- One -->
@@ -91,8 +102,8 @@
 						<td> 
 						<select Name="deptName" type="text">
 							<?php
-							$stmt->execute();
-							while($stmt->fetch()){
+							$stmt2->execute();
+							while($stmt2->fetch()){
 								echo "<option>$deptName</option>";
 							}
 							?>
